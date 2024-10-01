@@ -11,37 +11,37 @@ export const nav_list = [
 
 export const whyUsDetails = [
   {
-    image: "/why-us-icon/First Place Ribbon.png",
+    image: "./why-us-icon/First Place Ribbon.png",
     title: "Expertise",
     description:
       "At DreamGen Labs we comprise experienced experts in web development and digital marketing, bringing years of industry knowledge to every project.",
   },
   {
-    image: "/why-us-icon/rocket.png",
+    image: "./why-us-icon/rocket.png",
     title: "Innovative Solutions",
     description:
       "We leverage the latest technologies and trends to create modern, user-friendly websites and effective digital marketing strategies.",
   },
   {
-    image: "/why-us-icon/Hand Holding US Dollar_.png",
+    image: "./why-us-icon/Hand Holding US Dollar_.png",
     title: "Modest Pricing",
     description:
       "We deliver exceptional value with affordable high-quality web development and digital marketing services, maintaining transparent pricing.",
   },
   {
-    image: "/why-us-icon/Heart Puzzle.png",
+    image: "./why-us-icon/Heart Puzzle.png",
     title: "Unified Services",
     description:
       "We offer a seamless blend of IT solutions under one roof. Experience the convenience and reliability of a single point of contact for all your IT requirements with DreamGen Labs.",
   },
   {
-    image: "/why-us-icon/Helping Hands.png",
+    image: "./why-us-icon/Helping Hands.png",
     title: "Client-Focused",
     description:
       "Our priority is your satisfaction. We work closely with you throughout the process to ensure your vision is realized and your expectations are exceeded.",
   },
   {
-    image: "/why-us-icon/Customer Support.png",
+    image: "./why-us-icon/Customer Support.png",
     title: "Support Services",
     description:
       "We provide efficient support services tailored to your needs, ensuring smooth system operations through troubleshooting, maintenance, and upgrades.",
