@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { useState } from "react";
@@ -15,7 +16,7 @@ export const Header = () => {
     <MobileNav open={mobileNav} setOpen={setMobileNav} />
       <div className="flex fixed w-full bg-white px-4 md:px-14 h-20 md:h-24 items-center justify-between">
         <div className="flex space-x-2 items-center">
-          <Image src="/logo_icon.png" alt="logo" width={40} height={40} />
+          <img src="./logo_icon.png" alt="logo" width={40} height={40} />
           <div className="">
             <h1 className="text-xl font-bold ml-1.5 text-primary">
               DreamGen Labs
