@@ -50,37 +50,37 @@ export const whyUsDetails = [
 
 export const services = [
   {
-    image: "/services-icon/robot-with-megaphone-directors-chair 1.png",
+    image: "./services-icon/robot-with-megaphone-directors-chair 1.png",
     title: "Social Media Management",
     description:
       "Our social media management service involves expertly handling all aspects of your online presence. From content creation to audience engagement and performance monitoring, we ensure your brand shines across platforms.",
   },
   {
-    image: "/services-icon/robot-with-laptop-computer-mouse 1.png",
+    image: "./services-icon/robot-with-laptop-computer-mouse 1.png",
     title: "Software Development & Maintenance",
     description:
       "We excel at crafting visually stunning and intuitive interfaces while utilize ing top-notch UI/UX design principles, ensuring seamless user experiences that leave a lasting impression.",
   },
   {
-    image: "/services-icon/Robot with a tablet.png",
+    image: "./services-icon/Robot with a tablet.png",
     title: "Commercial Website Development",
     description:
       "Our Commercial Website Development service offers tailored solutions for businesses seeking a strong online presence, driving traffic and maximizing conversions.",
   },
   {
-    image: "/services-icon/robot-with-digital-tablet 1.png",
+    image: "./services-icon/robot-with-digital-tablet 1.png",
     title: "Mobile Application Development",
     description:
       "Our Commercial Website Development service offers tailored solutions for businesses seeking a strong online presence, driving traffic and maximizing conversions.",
   },
   {
-    image: "/services-icon/Robot writing with a pen.png",
+    image: "./services-icon/Robot writing with a pen.png",
     title: "Front End Web Development",
     description:
       "We excel at crafting visually stunning and intuitive interfaces while utilize ing top-notch UI/UX design principles, ensuring seamless user experiences that leave a lasting impression.",
   },
   {
-    image: "/services-icon/robot-with-helmet-clipboard.png",
+    image: "./services-icon/robot-with-helmet-clipboard.png",
     title: "Search Engine Optimization ",
     description:
       "Our Search Engine Optimization (SEO) service boosts your online visibility, driving more organic traffic to your website and improving your search engine rankings.",
@@ -149,19 +149,19 @@ export const teamMembers = [
 
 export const about_us = [
   {
-    image: "/img/about us 1.svg",
+    image: "./img/about us 1.svg",
     title: "Values",
     description:
       "Innovation, Integrity, Collaboration, Empowerment, and Sustainability guide our journey, shaping our approach to technology and business.",
   },
   {
-    image: "/img/about us 2.svg",
+    image: "./img/about us 2.svg",
     title: "Vision",
     description:
       "Empowering businesses with innovative, modern IT solutions for sustainable growth, we provide cutting-edge technology  to ensure long-term success.",
   },
   {
-    image: "/img/about us 3.svg",
+    image: "./img/about us 3.svg",
     title: "Goal",
     description:
       "Pioneering the digital frontier, weaving a tapestry of global excellence, we empower businesses with innovative, modern IT solutions for sustainable growth.",
@@ -169,10 +169,10 @@ export const about_us = [
 ];
 
 export const projects = [
-  { title: 'Harvest Master', description: 'Description of Project Alpha', image: '/img/harvestmasterimg.png' },
-  { title: 'DormLink', description: 'Description of Project Beta', image: '/img/dormlinkimg.png' },
-  { title: 'Tour Buddy', description: 'Description of Project Alpha', image: '/img/Tourbuddyimg.png' },
-  { title: 'Crop Care', description: 'Description of Project Beta', image: '/img/cropcareimg.png' },
-  { title: 'Pet Care', description: 'Description of Project Alpha', image: '/img/petcareimg.png' },
-  { title: 'Coffe Bean', description: 'Description of Project Beta', image: '/img/coffeebeanimg.png' },
+  { title: 'Harvest Master', description: 'Description of Project Alpha', image: './img/harvestmasterimg.png' },
+  { title: 'DormLink', description: 'Description of Project Beta', image: './img/dormlinkimg.png' },
+  { title: 'Tour Buddy', description: 'Description of Project Alpha', image: './img/Tourbuddyimg.png' },
+  { title: 'Crop Care', description: 'Description of Project Beta', image: './img/cropcareimg.png' },
+  { title: 'Pet Care', description: 'Description of Project Alpha', image: './img/petcareimg.png' },
+  { title: 'Coffe Bean', description: 'Description of Project Beta', image: './img/coffeebeanimg.png' },
 ];
