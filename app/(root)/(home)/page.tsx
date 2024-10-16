@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center pt-28">
+    <div className="flex flex-col items-center pt-14 md:pt-28">
     <div className="md:w-3/4">
       <div className="flex flex-col-reverse md:flex-row items-center justify-between px-4 md:px-14">
         <div className="md:w-1/2 md:px-4">

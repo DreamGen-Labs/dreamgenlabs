@@ -89,7 +89,7 @@ export const services = [
 
 export const teamMembers = [
   {
-    image: "/img/team/mitila.png",
+    image: "./img/team/mitila.png",
     name: "J.M Thilochana",
     designation: "Founder & CEO",
     link: {
@@ -100,7 +100,7 @@ export const teamMembers = [
     },
   },
   {
-    image: '/img/team/lahiru.png',
+    image: './img/team/lahiru.png',
     name: "W.D.L Udayakumara",
     designation: "Co-Founder & CTO",
     link: {
@@ -111,7 +111,7 @@ export const teamMembers = [
     },
   },
   {
-    image: '/img/team/yohan.png',
+    image: './img/team/yohan.png',
     name: "W.D.Y.C Werrapperuma",
     designation: "Chief Financial Officer",
     link: {
@@ -123,7 +123,7 @@ export const teamMembers = [
     },
   },
   {
-    image: "/img/team/sithum.png",
+    image: "./img/team/sithum.png",
     name: "S.M.A.S.N Senanayake",
     designation: "Chief Operating Officer",
     link: {
@@ -135,7 +135,7 @@ export const teamMembers = [
     },
   },
   {
-    image: "/img/team/nimsara.png",
+    image: "//img/team/nimsara.png",
     name: "N.A.D Nimsara",
     designation: "Chief Marketing Officer",
     link: {
