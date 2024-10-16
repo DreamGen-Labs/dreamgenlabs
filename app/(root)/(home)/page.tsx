@@ -6,7 +6,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <>
+    <div className="flex flex-col items-center pt-28">
+    <div className="md:w-3/4">
       <div className="flex flex-col-reverse md:flex-row items-center justify-between px-4 md:px-14">
         <div className="md:w-1/2 md:px-4">
           <section>
@@ -27,7 +28,7 @@ export default function Home() {
                 <br />
                 <p
                   data-aos="fade-right"
-                  className="gradient-text text-justify text-base sm:text-2xl md:text-xl font-quicksand font-semibold tablet:w-[80%]"
+                  className="gradient-text text-justify text-base sm:text-2xl md:text-base font-quicksand font-semibold tablet:w-[80%]"
                 >
                   Welcome to DreamGen Labs, your gateway to innovative web
                   development and digital marketing solutions. Explore our
@@ -56,7 +57,7 @@ export default function Home() {
           </section>
         </div>
         <div className="md:block md:w-1/2">
-          <Image
+          <img
             src="./background.png"
             className="w-80 md:w-full"
             alt="logo"
@@ -94,7 +95,7 @@ export default function Home() {
                 className="items-center p-6 border border-slate-300 rounded-md cursor-default"
               >
                 <div className="flex gap-4 items-center">
-                  <Image
+                  <img
                     src={data.image}
                     alt={data.title}
                     className="mb-2 mt-2 w-10 h-10"
@@ -114,7 +115,7 @@ export default function Home() {
       <section className="px-5 tablet:px-20 justify-center items-center pb-8">
         <div className="md:flex gap-4">
           <div className="hidden md:w-1/2 md:flex md:flex-col justify-center">
-            <Image src="./service.png" alt="logo" width={800} height={200} />
+            <img src="./service.png" alt="logo" width={800} height={200} />
           </div>
           <div className="md:w-1/2 flex flex-col justify-center gap-6">
             <h1 className="text-3xl font-extrabold tracking-tight sm:text-4xl main-text mb-6">
@@ -139,6 +140,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </>
+    </div>
+    </div>
   );
 }
