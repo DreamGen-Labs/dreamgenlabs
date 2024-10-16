@@ -4,7 +4,7 @@ import { projects } from "@/constants";
 
 export default function ProjectsPage() {
   return (
-    <div className="pt-24 md:pt-28 px-6 md:px-14">
+    <div className="pt-24 md:pt-28 px-6 md:px-0">
       <PageHeader
         title="Projects"
         description="We offer a wide range of services to help you grow your business and increase the reach of your brand."
