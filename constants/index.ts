@@ -5,7 +5,7 @@ export const nav_list = [
   { name: "Services", href: "/services" },
   { name: "Projects", href: "/projects" },
   { name: "Careers", href: "/careers" },
-  { name: "Blog", href: "/blog" },
+  { name: "Blog", href: "/blogs" },
   { name: "About", href: "/about" },
 ];
 

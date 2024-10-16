@@ -13,9 +13,9 @@ export const Header = () => {
   return (
     <>
     <MobileNav open={mobileNav} setOpen={setMobileNav} />
-      <div className="flex px-4 md:px-14 h-20 md:h-24 items-center justify-between">
+      <div className="flex fixed w-full bg-white px-4 md:px-14 h-20 md:h-24 items-center justify-between">
         <div className="flex space-x-2 items-center">
-          <Image src="./logo_icon.png" alt="logo" width={40} height={40} />
+          <Image src="/logo_icon.png" alt="logo" width={40} height={40} />
           <div className="">
             <h1 className="text-xl font-bold ml-1.5 text-primary">
               DreamGen Labs
