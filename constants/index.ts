@@ -135,7 +135,7 @@ export const teamMembers = [
     },
   },
   {
-    image: "//img/team/nimsara.png",
+    image: "./img/team/nimsara.png",
     name: "N.A.D Nimsara",
     designation: "Chief Marketing Officer",
     link: {
@@ -149,19 +149,19 @@ export const teamMembers = [
 
 export const about_us = [
   {
-    image: "./img/about us 1.svg",
+    image: "./img/values.png",
     title: "Values",
     description:
       "Innovation, Integrity, Collaboration, Empowerment, and Sustainability guide our journey, shaping our approach to technology and business.",
   },
   {
-    image: "./img/about us 2.svg",
+    image: "./img/vision.png",
     title: "Vision",
     description:
       "Empowering businesses with innovative, modern IT solutions for sustainable growth, we provide cutting-edge technology  to ensure long-term success.",
   },
   {
-    image: "./img/about us 3.svg",
+    image: "./img/goals.png",
     title: "Goal",
     description:
       "Pioneering the digital frontier, weaving a tapestry of global excellence, we empower businesses with innovative, modern IT solutions for sustainable growth.",
