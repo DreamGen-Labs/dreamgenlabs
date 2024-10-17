@@ -190,7 +190,7 @@ export default function ContactUsPage() {
                 type="submit"
                 className="block w-full rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 gradient-button"
               >
-                Let's Talk
+                Let&#39;s Talk
               </button>
 
               <style jsx>{`
