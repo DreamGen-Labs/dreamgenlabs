@@ -20,7 +20,7 @@ export default function AboutPage() {
         <div className="md:w-2/3 space-y-24">
           {about_us.map((about, index) => (
             <div
-              key={about.title}
+              key={index}
               className={`flex gap-12 md:space-y-12 ${
                 index % 2 === 0 ? "" : "flex-row-reverse"
               }`}
@@ -29,7 +29,7 @@ export default function AboutPage() {
                 <img
                   src={about.image}
                   alt={about.title}
-                  className="object-cover h-auto"
+                  className="object-contain w-full h-auto"
                 />
               </div>
               <div className="w-2/3">
@@ -47,7 +47,7 @@ export default function AboutPage() {
             <h1 className="text-center text-2xl font-bold main-text">
               Our Team
             </h1>
-            <div className={`flex flex-wrap justify-between py-14`}>
+            <div className={`flex flex-wrap justify-center md:justify-between py-8 md:py-14`}>
               {teamMembers.map((teamMember, index) => (
                 <div
                   key={index}

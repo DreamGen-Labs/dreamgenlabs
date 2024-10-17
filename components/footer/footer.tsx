@@ -5,7 +5,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='py-10 border-t border-slate-300 max-w-full mt-10'>
+    <footer className='flex flex-col items-center'>
+      <div className='border-t border-slate-300 w-full md:w-2/3 py-10 '>
       <div className="flex flex-row items-center justify-center text-base my-4 gap-y-2 gap-x-4">
         <Link
           href="https://www.facebook.com/profile.php?id=61558384975264&mibextid=LQQJ4d"
@@ -43,10 +44,11 @@ const Footer = () => {
           <Mail size={20} className='mr-2' /><p>dreamgenlabs@gmail.com</p>
         </div>
         <div className='flex items-center'>
-          <Phone size={20} className='mr-2' /><p>0765536046</p>
+          <Phone size={20} className='mr-2' /><p>+94765536046</p>
         </div>
       </div>
       <p className="text-sm text-center">&copy; 2024 <Link href='/' className='main-text text-sm font-semibold'>DreamGen Labs</Link>. All rights reserved.</p>
+      </div>
     </footer>
   )
 }
